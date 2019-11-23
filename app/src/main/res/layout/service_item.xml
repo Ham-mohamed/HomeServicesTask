@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:padding="16dp"
+    >
+ <ImageView
+     android:layout_width="50dp"
+     android:layout_height="50dp"
+     android:layout_alignParentEnd="true"
+     android:src="@color/colorAccent"
+ android:layout_marginStart="5dp"
+     android:layout_centerVertical="true"
+     android:layout_marginEnd="5dp"
+     android:id="@+id/service_img"
+     />
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+  android:layout_toStartOf="@+id/service_img"
+    android:text="خدمة اصلاح السيارات"
+    android:layout_centerVertical="true"
+    android:layout_marginEnd="6dp"
+    android:textStyle="bold"
+    android:textSize="13sp"
+    android:id="@+id/name"
+    />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="خدمة اصلاح السيارات"
+        android:layout_toStartOf="@+id/service_img"
+        android:layout_marginEnd="5dp"
+        android:textStyle="bold"
+        android:textSize="11sp"
+        android:id="@+id/description"
+        android:layout_below="@+id/name"
+        />
+
+    <ImageView
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_alignParentStart="true"
+        android:src="@drawable/arrb"
+        android:layout_centerVertical="true"
+        android:id="@+id/arrow"
+      android:layout_marginStart="16dp"
+
+        />
+</RelativeLayout>

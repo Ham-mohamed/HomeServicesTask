@@ -24,7 +24,7 @@ public class CategoryAdapter extends RecyclerView.Adapter<CategoryAdapter.Holder
 
     ArrayList<CategoryData> data =new ArrayList<>();
 
-   MapsActivity mapActivity;
+   MapsActivity  mapActivity;
     int selectedIndex = -1;
     // public Hfragment hfragment;
     boolean isSelected = false;

@@ -31,7 +31,7 @@ public class CategoryAdapter extends RecyclerView.Adapter<CategoryAdapter.Holder
 
     public CategoryAdapter(MapsActivity activity) {
 
-this.mapActivity=activity;
+this.mapActivity =activity;
 
     }
 
